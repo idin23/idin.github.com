@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:700,700i');
+
+body {
+  font-family: 'Vollkorn', sans-serif;
+  font-style: italic;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background: #222;
+}
+
+.rainbow {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 7vw;
+}
+
+.emphasis {
+  font-size: 200%;
+  font-style: normal;
+}
